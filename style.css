@@ -2,6 +2,8 @@
 body{
     margin: 0px;
     width: 100%;
+    word-wrap: break-word;
+    overflow-wrap:break-word;
 }
 
 #intro{
@@ -18,6 +20,7 @@ body{
     background-size: cover;
     -moz-background-size:cover;
     background-image: url(https://cdn.pixabay.com/photo/2022/04/29/09/19/yarn-7162973_960_720.jpg);
+    color: white;
 }
 
 #intro-text-h1{
@@ -25,10 +28,41 @@ body{
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top:10%;  
+    top:5%;  
     text-align: center;
     font-family: "Ranga", cursive;
-    font-size: 25px;
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
+#intro-text-p{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+    margin: 0 auto;
+    padding: 0 30px;
+    top:25%;
+    text-align: center;
+}
 
+#projects-div{
+    text-align: center;
+    font-size: 30px;
+    margin: none;
+    font-family: "Ranga", cursive;
+}
+
+#projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5%;
+    text-align: center;
+}
+
+.project-images{
+    width:  360px;
+    height: 360px;
+    object-fit: cover;
+}
