@@ -98,3 +98,16 @@ a{
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
+#credits{
+    text-align: center;
+    font-size: 30px;
+    margin: none;
+    font-family: "Ranga", cursive;
+}
+
+#footer{
+    text-align: center;
+    line-height: 10%;
+    padding-bottom: 50px;
+}
